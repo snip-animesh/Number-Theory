@@ -11,3 +11,5 @@ while(i<1000001):
 
 while True:
     print(lst[int(input())])
+
+    
