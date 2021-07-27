@@ -11,4 +11,4 @@ def primedivs(a):
         divs.add(a)
     return divs
   
-  #Return a set of prime divisors of a
+  #Return a set of Prime Divisors or Prime Factors of a
