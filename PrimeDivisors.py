@@ -7,7 +7,7 @@ def primedivs(a):
             while (a%i==0):
                 a//=i
         i+=1
-    if a>2:
+    if a>=2:
         divs.add(a)
     return divs
   
