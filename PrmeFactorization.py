@@ -3,8 +3,8 @@ def primefactors(n):
     if n==1:
         pfactors=[(1,1)]
     else:
-        i,a=2,n
-        while(i*i<=a):
+        i=2
+        while(i*i<=n):
             count=0
             if n%i==0:
                 while(n%i==0):
