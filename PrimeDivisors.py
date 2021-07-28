@@ -1,7 +1,7 @@
 def primedivs(a):
     i,divs=2,set()
-    n=a
-    while(i*i<=n):
+    
+    while(i*i<=a):
         if not a%i:
             divs.add(i)
             while (a%i==0):
