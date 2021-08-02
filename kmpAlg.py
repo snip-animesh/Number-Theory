@@ -36,3 +36,4 @@ print(*index,sep="\n")
 
 #https://www.youtube.com/watch?v=sMARZCTPyNI&t=556s
 #It's the best video to understand this algorithm .
+#Complexity of this algorithm is O(n+m) n--> len(text) m--> len(pattern)
